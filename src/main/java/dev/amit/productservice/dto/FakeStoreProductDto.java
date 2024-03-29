@@ -1,5 +1,8 @@
 package dev.amit.productservice.dto;
 
+import lombok.Setter;
+
+@Setter
 public class FakeStoreProductDto {
     private Long id;
    private  String title;
